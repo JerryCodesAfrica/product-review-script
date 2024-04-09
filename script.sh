@@ -3,13 +3,13 @@
 
  #Begin the survey
  echo "pick your favourite bevarage between these:"
- echo -n "coke, "
- echo -n "fanta, "
- echo -n "sprite, "
+ echo -n "product1, "
+ echo -n "product2, "
+ echo -n "product3, "
  read fv 
  #case statement
 case $fv in
-"sprite")
+"product1")
     echo "Excellent choice"
     read -p "rate it from one  to ten " rati
      if [[ $rati -lt 8 ]] ; then
@@ -19,7 +19,7 @@ case $fv in
     fi 
 ;;
 
-"fanta")
+"product2")
     echo "Beautiful choice"
     #read -p "on a scale of 1-10, how much do you love ${fv}?" othersrating
      read -p "rate it from one  to ten " rati
@@ -30,8 +30,8 @@ case $fv in
     fi 
 ;;
 
-"coke")
-     echo "nice choice, but coke tho"
+"product3")
+     echo "nice choice"
     #read -p "on a scale of 1-10, how much do you love ${fv}?" othersrating
      read -p "rate it from one  to ten " rati
      if [[ $rati -lt 8 ]] ; then
