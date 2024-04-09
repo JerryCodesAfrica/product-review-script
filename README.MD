@@ -1,4 +1,4 @@
--This is my first bash script
--This is a bash script built to complete a survey 
+-This is my first shell script
+-This is a script built to complete a survey 
 -There are lists of products you'll have to choose from and give a rating
 -Once you've completed the survey, the result will be stored in the "output.txt" file
